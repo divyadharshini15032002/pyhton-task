@@ -1,0 +1,5 @@
+s1=input("enter a elments:")
+set=set(s1.split())
+print("oringal set:",set)
+set.clear()
+print(set)

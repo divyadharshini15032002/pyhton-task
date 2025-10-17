@@ -1,0 +1,5 @@
+a=input("enter a elements:")
+set=set(a.split(','))
+print("oringal set:",set)
+list=list(set)
+print("convered list:",list)

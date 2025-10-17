@@ -1,0 +1,5 @@
+set1=input("enter a values:")
+set1=set(set1.split())
+set2=input("enter a values:")
+set2=set(set2.split())
+print("set1 disjiont set2",set1.issubset(set2))

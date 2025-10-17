@@ -1,0 +1,5 @@
+numbers=set(map(int,input("enter a values:").split()))
+even_count = sum(1 for n  in numbers if n % 2 == 0)
+odd_count = sum(1 for n in numbers if n % 2  != 0)
+print("number of even numbers:",even_count)
+print("number of odd numbers:",odd_count)
