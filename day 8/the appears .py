@@ -1,0 +1,5 @@
+sentence=input("enter a strings:")
+sentence=sentence.lower()
+words=sentence.split()
+count=words.count("the")
+print('the word of "the"appears', count)
